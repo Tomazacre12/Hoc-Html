@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 48px;
+    border-radius: 50px;
+    min-width: 120px;
+    cursor: pointer;
+    transition: opacity, 0.2s ease;
+}
+.btn--big{
+    padding: 24px 96px;
+}
+.btn--smol{
+    padding: 6px 24px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn--disable{
+    opacity: 0.5 !important;
+    cursor: default;
+}
+.btn--blu{
+    background-color: #67b72d;
+}
+.btn--ye{
+    background-color: #dc9606;
+}
+.btn--re{
+    background-color: #ff5837;
+}
+.btn + .btn{
+    margin-left: 16px;
+    margin-bottom: 66px;
+}

@@ -36,6 +36,7 @@ body{
     margin-top: 36px;
     margin-left: -10px;
     display: flex;
+    flex-wrap: wrap;
 }
 .column{
     flex: 1;
@@ -48,6 +49,7 @@ body{
     margin-left: -10px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .b1{
     width: 100%;
