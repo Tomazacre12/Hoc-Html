@@ -24,6 +24,10 @@ body{
     margin: 0 8px;
     position: relative;
 }
+.header__navbar-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 .header__navbar-item--bold{
     font-weight: bold;
 }
