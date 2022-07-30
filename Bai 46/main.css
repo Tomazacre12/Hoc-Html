@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    background-color: rgb(151, 151, 151);
 }
 .header{
     height: 120px;
@@ -24,7 +25,7 @@ body{
 .header__navbar-icon + .header__navbar-icon{
     margin: 0 5px;
 }
-.header__navbar-item,.header__navbar-nohover{
+.header__navbar-item,.header__navbar-nohover,.header__navbar-noopacity{
     display: inline-block;
     font-size: 15px;
     color: white;
@@ -33,6 +34,9 @@ body{
 }
 .header__navbar-item:hover,.header__navbar-icon:hover{
     opacity: 0.8;
+    cursor: pointer;
+}
+.header__navbar-noopacity:hover{
     cursor: pointer;
 }
 .header__navbar-item--qr:hover .header__qrcode{
@@ -64,8 +68,9 @@ body{
     top: 150%;
     border-radius: 2px;
     display: none;
+    animation: fadein ease-in 0.3s;
 }
-.header__qr::before{
+.header__qrcode::before{
     position: absolute;
     left: 0;
     top: -16px;
@@ -84,4 +89,12 @@ body{
 .header__qrcode-downloads{
     height: 16px;
     margin: 0 12px;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
