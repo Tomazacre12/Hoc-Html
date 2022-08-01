@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&dislay=swap&subset=vietnamese">
+    <title>Lesson 51-56</title>
+</head>
+<body>
+    <div class="header">
+        <div class="grid">
+            <div class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-noopacity header__navbar-item--qr">
+                        <p class="a">Vào cửa hàng trên ứng dụng F8 Shop</p>
+                        <div class="header__qrcode">
+                            <img src="./img/d91264e165ed6facc6178994d5afae79.png" alt="" class="header__qrcode-img">
+                            <div class="header__qrcode-apps">
+                                <a href=""><img src="./img/appstore.png" alt="" class="header__qrcode-downloads"></a>
+                                <a href=""><img src="./img/chplay.png" alt="" class="header__qrcode-downloads"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item navbar-item--separate"></il>
+                    <li class="header__navbar-nohover">Kết nối</li>
+                        <a href="" class="header__navbar-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="header__navbar-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    
+                </ul>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-noopacity"><a class="header__navbar-item-link" href="">
+                        <p class="a">
+                        <i class="fa-solid fa-bell"></i>
+                        Thông báo</p></a>
+                        <div class="header__thongbao">
+                            <div class="header__thongbao-header">
+                                <h3>Thông báo mới nhận</h3>
+                            </div>
+                            <ul class="header__thongbao-list">
+                                <li class="header__thongbao-item">
+                                    <a class="header__thongbao-link">
+                                        <img src="https://i1.sndcdn.com/artworks-7phBaUdSuSD2OydH-SmAgcg-t500x500.jpg" alt="" class="header__thongbao-img">
+                                        <div class="header__thongbao-info">
+                                            <h4 class="header__thongbao-name">Bing chilling</h4>
+                                            <p class="header__thongbao-mota">早上好中国 现在我有冰淇淋 我很喜欢冰淇淋 但是 速度与激情9 比冰淇淋 速度与激情 速度与激情9 我最喜欢 所以…</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__thongbao-item">
+                                    <a class="header__thongbao-link">
+                                        <img src="https://my-test-11.slatic.net/p/238cdc92281022477373aaf083fd8c25.jpg" alt="" class="header__thongbao-img">
+                                        <div class="header__thongbao-info">
+                                            <h4 class="header__thongbao-name">Funky</h4>
+                                            <p class="header__thongbao-mota">スカーレット警察がなんぼのもんじゃ！！
+                                                ダンスバトルはあたいらゲットーもんの心の氷結温泉や
+                                                いくらポリでも邪魔は許さへんで！...</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__thongbao-item">
+                                    <a class="header__thongbao-link">
+                                        <img src="https://i.kym-cdn.com/photos/images/masonry/001/407/470/26b.jpg" alt="" class="header__thongbao-img">
+                                        <div class="header__thongbao-info">
+                                            <h4 class="header__thongbao-name">Vodka</h4>
+                                            <p class="header__thongbao-mota">Village Boys и DJ Blyatman разрывают ваши хаты
+                                                Да нам просто поебать, скажем вместе
+                                                Сука блять!…</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="header__thongbao-footer">
+                                <a href="" class="header__thongbao-footer--btn">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item"><a class="header__navbar-item-link" href="">
+                        <i class="fa-solid fa-circle-question"></i>
+                        Trợ giúp</a></li>
+                    <li class="header__navbar-item header__navbar-item--bold">Đăng ký</li>
+                    <li class="header__navbar-item navbar-item--separate"></il>
+                    <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- register -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <div class="auth-form__heading">Đăng ký</div>
+                            <div class="auth-form__switch-btn">Đăng nhập</div>
+                        </div>
+                        
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại Password">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">Bằng việc đăng ký, bạn đã đồng ý với F8 về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>     
+                        <div class="auth-form__socials">
+                            <a href="" class="btn--with-icon facebook">
+                                <i class="fa-brands fa-square-facebook auth-form__socials-icon"></i>
+                                <p class="auth-form__socials-text">Kết nối với facebook</p>
+                            </a>
+                            <a href="" class="btn--with-icon google">
+                                <i class=" auth-form__socials-icon fa-brands fa-google"></i>
+                                <p class="auth-form__socials-text">Kết nối với Google</p>
+                            </a>
+                        </div>
+                                     
+                </div>
+                <!-- login -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <div class="auth-form__heading">Đăng nhập</div>
+                            <div class="auth-form__switch-btn">Đăng ký</div>
+                        </div>
+                        
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập Password">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Quyên mật khẩu</a>
+                                <div class="auth-form__help-separate"></div>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp ?</a>
+                            </div>
+                        </div>
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>     
+                        <div class="auth-form__socials">
+                            <a href="" class="btn--with-icon facebook">
+                                <i class="fa-brands fa-square-facebook auth-form__socials-icon"></i>
+                                <p class="auth-form__socials-text">Đăng nhập với facebook</p>
+                            </a>
+                            <a href="" class="btn--with-icon google">
+                                <i class=" auth-form__socials-icon fa-brands fa-google"></i>
+                                <p class="auth-form__socials-text">Đăng nhập với Google</p>
+                            </a>
+                        </div>
+                                     
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
