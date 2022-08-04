@@ -381,6 +381,17 @@ h3{
     color: white;
     font-size: 25px;
     text-align: center;
+    position: relative;
+}
+.header__cart-list{
+   position: absolute;
+   top: 100%;
+   background-color: white;
+   right: 20px;
+   width: 410px;
+}
+.header__cart-nocart--img{
+    width: 100%;
 }
 .header__search-input-wrap{
     flex: 1;

@@ -1,8 +1,11 @@
 body{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: space-around;
+    align-items:center;
+}
+.a{
+    margin-top: 200px;
 }
 .btn{
     display: inline-block;
