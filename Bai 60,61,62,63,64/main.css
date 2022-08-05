@@ -27,7 +27,7 @@ html{
 }
 .header__navbar-icon{
     color: white;
-    margin-left: -5px;
+    margin-left: -1px;
 }
 .header__navbar-icon + .header__navbar-icon{
     margin: 0 5px;
@@ -89,9 +89,9 @@ html{
     background-color: transparent;
 }
 .header__navbar-user-name{
-    margin-left: 8px;
+    margin-left: 4px;
     font-style: 15px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .header__navbar-user-item a{
     text-decoration: none;
@@ -103,6 +103,9 @@ html{
 .header__navbar-user-item a:hover{
     background-color: #eeeeee;
     border-radius: 2px;
+}
+.header__navbar-user-item--separate{
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 .header__navbar-item:hover,.header__navbar-icon:hover,.a:hover{
     opacity: 0.8;
@@ -480,7 +483,7 @@ h3{
 }
 .header__cart-list{
    position: absolute;
-   top: calc(100% + 9px);
+   top: calc(100% + 8px);
    background-color: white;
    right: -18px;
    width: 400px;
