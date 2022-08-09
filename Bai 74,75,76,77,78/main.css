@@ -143,7 +143,7 @@ html{
     will-change: fadein;
     animation: fadein ease-in 0.3s;
     z-index: 1;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px rgb(119, 119, 119);
 }
 .header__qrcode::before{
     position: absolute;
@@ -183,6 +183,8 @@ html{
     transform-origin: 90% top ;
     will-change: growth;
     animation: growth ease-in 0.25s;
+    box-shadow: 0 3px 3px rgb(119, 119, 119);
+    border-radius: 2px;
     display: none;
     z-index: 1;
 }
@@ -917,6 +919,7 @@ h3{
     padding: 8px 19px;
     display: none;
     animation: fadein ease-in 0.1s;
+    box-shadow: 0 1px 5px rgb(182, 182, 182);
     z-index: 1;
 }
 .select-input_list::before{
@@ -1136,7 +1139,4 @@ i.home-product-item_heart-icon-fill{
 .home-product_pagination{
     margin-top: 48px;
     margin-bottom: 32px;
-}
-.pagination-item_icon-off {
-    color: #939393;
 }
