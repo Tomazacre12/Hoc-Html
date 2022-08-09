@@ -1136,8 +1136,11 @@ i.home-product-item_heart-icon-fill{
 .pagination-item--active .pagination-item_link:hover{
     background-color: #ed5c3f;
 }
-.pagination-item_icon{
+.pagination-item_icon, .pagination-item_icon-off {
     line-height: 30px;
+}
+.pagination-item_icon-off {
+    opacity: 0.3;
 }
 .home-product_pagination{
     margin-top: 0;
@@ -1161,6 +1164,7 @@ i.home-product-item_heart-icon-fill{
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
+    padding-top: 30px;
 }
 .footer_list{
     list-style: none;
@@ -1218,9 +1222,9 @@ i.home-product-item_heart-icon-fill{
 }
 .footerbottom_heading::before{
     content: "";
-    border-right: 1px solid #858585;
+    border-right: 1px solid #b3b3b3;
     position: absolute;
-    height: 40%;
+    height: 50%;
     top: 10px;
     left: 200px;
 }
@@ -1244,4 +1248,7 @@ i.home-product-item_heart-icon-fill{
 }
 .footerbottom_bot-text{
     color: #3b3b3b;
+}
+.footerbottom_bot-icon{
+    margin-right: 8px;
 }
