@@ -365,6 +365,7 @@ li:hover .subnav{
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modalFadein ease 0.5s;
 }
 .modal-close{
     position: absolute;
@@ -447,5 +448,16 @@ li:hover .subnav{
 .footer{
     text-align: center;
     padding: 64px 16px;
+}
+
+@keyframes modalFadein {
+    from{
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
